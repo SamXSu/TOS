@@ -1,0 +1,63 @@
+................................Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.
+Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+..........................
+Time: 8.882
+
+OK (76 tests)
+

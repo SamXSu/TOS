@@ -1,0 +1,89 @@
+Package				tos.presentation
+
+InvokeMethod		tos.application.Main		startUp
+
+Select				MainWindow					testFileMenu
+
+Select				MainWindow					testNewTask
+
+InvokeMethod		tos.presentation.MainWindow	refresh
+
+Set					TaskEditor					titleText		"Test"
+
+Test				TaskEditor					titleText		"Test"
+
+Click				TaskEditor					setTags
+
+Set					TaskEditor					tagText			"Tag"
+
+Click				TaskEditor					testSaveTag
+
+Test				TaskEditor					tagsText		"[Tag]"
+
+Click				TaskEditor					setTags
+
+Set					TaskEditor					tagText			"Tag2"
+
+Click				TaskEditor					testCancelTag
+
+Test				TaskEditor					tagsText		"[Tag]"
+
+Set					TaskEditor					dueDateText		"Sat, 13 Jul, 2013"
+
+Test				TaskEditor					dueDateText		"Sat, 13 Jul, 2013"
+
+Set					TaskEditor					detailText		"Details"
+
+Test				TaskEditor					detailText		"Details"
+
+Set					TaskEditor					commentText		"Comment"
+
+Test				TaskEditor					commentText		"Comment"
+
+Click				TaskEditor					submitButton
+
+InvokeMethod		tos.presentation.MainWindow	refresh
+
+Test				MainWindow					testLabel		"Test"
+
+InvokeMethod		tos.presentation.MainWindow	testDoubleClick
+
+Click				TaskEditor					editButton
+
+Set					TaskEditor					titleText		"Test Edit"
+
+Test				TaskEditor					titleText		"Test Edit"
+
+Set					TaskEditor					dueDateText		"Sat, 23 Jul, 2013"
+
+Test				TaskEditor					dueDateText		"Sat, 23 Jul, 2013"
+
+Click				TaskEditor					submitButton
+
+InvokeMethod		tos.presentation.MainWindow	refresh
+
+Test				MainWindow					testLabel		"Test Edit"
+
+Select				MainWindow					testFileMenu
+
+Select				MainWindow					testNewTask
+
+Set					TaskEditor					titleText		"Test"
+
+Test				TaskEditor					titleText		"Test"
+
+Click				TaskEditor					closeButton
+
+InvokeMethod		tos.presentation.MainWindow	refresh
+
+Test				MainWindow					testLabel		"Test Edit"
+
+Click				MainWindow					testDelete
+
+Click				MainWindow					testConfirmDelete
+
+InvokeMethod		tos.presentation.MainWindow	refresh
+
+Test				MainWindow					testLabel		"Takeover Greenland"
+
+InvokeMethod		tos.application.Main		shutDown

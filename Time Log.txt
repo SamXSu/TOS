@@ -1,0 +1,156 @@
+ITERATION 1 Time Log
+---------
+Date	Time (hours)	Person				Task / Description	
+13/05	0.5				Entire Group		Decided what the subject of the project would be.
+18/05	1				Entire Group		Discussed Iteration 0
+21/05	1				Entire Group		Group met to discuss user interface design.
+23/05	1				Entire Group		Group met to discuss interfaces for three tier architecture.
+23/05	8				Hao Chang			making interface
+24/05	4				Entire Group		Group met to discuss and start development tasks.  Setup CVS Repository with required frameworks.
+26/05	2				Cameron McKay		Worked on stub database and its interface.
+27/05	2				Rob Leonhardt		Force CVS to ignore .classpath + snapshot
+27/05	3				Xuanming Su			Worked on TaskEditor
+31/05	2				Cameron McKay		Made changes to stub database based on info here: https://groups.google.com/forum/?fromgroups#!topic/group_8_3350/OI1pUbHvtXQ
+31/05	3				Xuanming Su			Finished TaskEditor
+01/06	0.5				Rob L				check repository + snapShot
+01/06	2				Cameron McKay		Added insert, update and delete methods for stub database with unit tests.
+01/06	3				Xuanming Su			Modify the due date box in create model of task editor. And the due date display. modify the task object.
+01/06	2				Cameron McKay		Added test suite for persistence layer.  Added ability to get a list of tasks and sections from stub database.
+01/06	1.5				Cameron McKay		Added test suite for entire project.  Added unit tests for domain specific objects.
+01/06	1.5				Cameron McKay		Added batch files required to compile, run and test project.
+02/06	5				Hao Chang			Rebuild interface and trying to do something about board changing.
+02/06	1				Xuanming Su			Modify the showing location of TaskEditor. Separate the functions in TaskEditor.java
+03/06	0.5				Xuanming Su			Test TaskEditer with Task Object.
+04/06	5				Xuanming Su			Test and modify TaskEditor, MainWindow with Rory, Hao and Rob
+04/06	5				Hao Chang			mainWindow dynamic value passing issue with Rory, Sam and Rob
+04/06	4				Cameron McKay		Outline and work on Logic layer with Rob
+04/06	1				Cameron McKay		Worked on Logic Layer with Rob and Rory
+04/06	9				Rob L				Logic/review/GUI
+04/06	3				Cameron McKay		Wrote unit tests for persistence layer and refactored stub database.
+04/06   5               Rory Kaufmann       Worked on Logic layer, TaskEditor and MainWindow
+05/06	5				Xuanming Su			Worked on MainWindow, TaskEditor, AccessTasks, Task to insure view_mode and create_mode of TaskEditor working, and also insure MainWindow won't break.
+05/06	5				Rob L				logic/review/GUI
+05/06	5				Cameron McKay		Unit Tests domain specific objects and business logic
+05/06   5               Rory Kaufmann       logic/bug fixes/presentation
+05/06   2.5				Rob L				peer-review/handin prep
+05/06   3				Cameron McKay		peer-review/handin prep
+
+
+ITERATION 2 Time Log
+---------
+Date	Time (hours)	Person				Task / Description	
+06/21	1				Cameron McKay		Updated domain objects and their tests to store IDs with a UUID instead of integer.
+06/21	1				Cameron McKay		Added UUID functionality to StubDatabase.  Added Tests to ensure ID is always unique.
+06/22	1.5				Cameron McKay		Added DBService interface for database
+06/22	0.5				Cameron McKay		Updated the logic layer to use the DBService interface
+06/22	1				Cameron McKay		Updated tests for logic to use the stub database with DBService interface
+06/22	1				Cameron McKay		Added on delete cascade functionality to stub database.  Wrote tests for it.
+06/22	0.5				Cameron McKay		Wrote unit tests to interleave insert, update and delete in database
+06/22	1				Cameron McKay		Wrote get task, board and section methods for retrieving info from database.  Wrote unit tests for them.
+06/22   5               Rory Kaufmann       Added task priorities, sorted lists by priority, added task swapping
+06/22   7				Rob Leonhardt		Drag-and-drop
+06/22	0.5				Xuanming Su			Fixed text limit in task editor and added edit button in view mode to enable editable mode
+06/22	2				Xuanming Su			Added Tags into Task Object and added Tags display in Task Editor
+06/22	5				Hao Chang			Basic section manager GUI, read names from database and build tree
+06/23	3				Hao Chang			Section reorder, create, rename, delete all done for GUI level
+06/22	2				Cameron McKay		Created Database Schema and populated it with the same data from stub database.
+06/22	4				Cameron McKay		Writing and Testing SQL Queries in HSQL database
+06/22	0.5				Cameron McKay		Created bat files for running, restoring and backing up database
+06/23	4				Hao Chang			section manager done
+06/23	2				Xuanming Su			Fixed bug in tag display and creation.
+06/23	7				Xuanming Su			Added Filter by Tags.
+06/23   9				Rob Leonhardt		- fix crashing on Win8 machines
+											- enforce the non-deletion of the WIP
+											- update stubdb to expect WIP bitfield
+06/23	3.5				Cameron McKay		Wrote code to execute SQL queries and tested for HSQL database
+06/23	2				Cameron McKay		Added tags information and methods to HSQL database
+06/23	1				Cameron McKay		Added tags information and methods to STUB database
+06/23	0.5				Cameron McKay		Moved Swapping Sections code from database into logic
+06/23	1				Cameron McKay		Added section order information to HSQL and Stub database
+06/23	1				Cameron McKay		Added Task priority information to HSQK and Stub database
+06/24   4               Rory Kaufmann       Moving Tasks in Section, bugs in presentation
+06/24	5.5				Xuanming Su			Fixed tag display error.
+06/24	6				Xuanming Su			Fixed tag display with stub DB with Cam.
+06/24	7				Rob Leonhardt		remove duplicate or dead code, testing
+06/25	1.5				Xuanming Su			Fixed multiple tags deletion. 
+06/25   3               Rory Kaufmann       AccessTasksTest, added delete button to section manager
+06/25   2               Rory Kaufmann       Section Manager, final lookover for hand-in
+06/25	5				Rob Leonhardt		Hand-in prep/peer-review
+
+Actual Estimated			Person		Finished Dev Task
+------ ---------    		------ 		------------------
+12h		1 days				Rob			Move Tasks Between sections
+5h		1 days				Rob 		Limit # of Tasks in WIP
+18h		3 days				Cam			Implement HSQL
+12h		3 days				Hao			Add/Edit/Remove Sections
+1h		1h (from prev)		Hao			Delete Task
+18h		2 days				Sam			Add Flags to Tasks
+7h		2 days				Sam			Add filtering by tasks			
+
+										Unfinished Dev Tasks
+										user task prioritizing/reorder tasks in section
+										User Selectable WIP maximum
+										Change Board Section task Number
+										Task Statistic Tracking
+
+ITERATION 3 Time Log
+---------
+Date	Time (hours)	Person				Task / Description
+07/05	4				Hao Chang			Created window for time tracker
+07/05	3				Hao Chang			Add new variables and methods on logic layer to suppor time tracker
+07/05	3				Xuanming Su			Added close button to all windows
+07/06	4				Cameron McKay		Wrote Integration Tests
+07/06	3				Hao Chang			Tried to get ATR works
+07/06	3				Cameron McKay		Updated GUI code to work with ATR
+07/06	6				Group				Fixed Various Bugs
+07/06	4				Cam / Sam			Wrote ATR Test for Create/Delete/Modify Task
+07/06	1				Cam / Sam / Rob		Wrote ATR Test for Create/Delete/Modify Section
+07/06	2				Hao Chang			Tried to fix the time setting bug n time tracker
+07/06	0.5				Hao Chang			Updated GUI for section editor
+07/06	1				Rory Kaufmann		Extracted variables for ATR testing
+07/06	3               Rory Kaufmann       Fixed my errors in AccessTasks
+07/07	2				Cameron McKay		Updated HSQL with Prepared Statements to sanitize SQL Statements
+07/08   1.5				Rob L				Readme/log/retrospective (handin prep)
+07/07	1				Rory Kaufmann		Wrote ATR Test for Filter Tags
+07/08	2				Rory Kaufmann		Refactored FilterTags for ATR
+
+Actual Estimated			Person		Finished Dev Task
+------ ---------    		------ 		------------------
+4d		4d					Rory		user task prioritizing/reorder tasks in section
+5d		3d					Hao			Task Statistic Tracking
+2d		3d					all			ATR TESING
+
+Design Choices
+--------------
+
+Three Tier Architecture:
+	- Simple and provides an easy way to pass information throughout the application
+
+Business Layer design choices to have a class to access and perform logic on each type of data were:
+	- Modular data access, so that certain GUI elements would only have access to the type of data it needed and no other data
+	- Encapsulate logic that pertains to one data type, so there isn't confusion on what the class is meant to operate on
+
+Persistence Layer
+	- Layer was modelled based on what the tables will look like in a SQL database
+	- Task table's primary key is taskID, foreign key is sectionID
+	- Section table's primary key is sectionID, foreign key is boardID
+	- Board table's primary key is boardID
+
+Presentation Layer design choices:
+	- Get updated task information from database every time a change is made, rather than having cached information
+	- Use same task editor for creating new tasks and updating changes to database
+
+FIXES FROM PREVIOUS
+-------------------------------
+- close buttons for calendar pop-up and task filter
+- set the date for task in task editor
+- section renaming
+- set tags now works during task creation
+- fixed tag filtering for checked/unchecked bugs
+- DB sanitization
+- renamed cancel button to close
+- The to-do section can be deleted
+UNRESOLVED ISSUES
+-------------
+
+	

@@ -1,0 +1,45 @@
+Package					tos.presentation
+
+InvokeMethod			tos.application.Main			startUp
+
+select					MainWindow 						testFileMenu
+
+select					MainWindow						sectionEDT
+
+SelectTree				SectionManager					tree				"sec2"
+
+TestTreeSelection		SectionManager					tree				"sec2"
+
+Click					SectionManager					makeNew
+
+Set						SectionManager					sectionName			"Whiteboard"
+
+Click					SectionManager					makeNew
+
+SelectTree				SectionManager					tree				"Whiteboard"
+
+TestTreeSelection		SectionManager					tree				"Whiteboard"
+
+Click					SectionManager					change
+
+Set						SectionManager					sectionName			"Test Section"
+
+Click					SectionManager					change
+
+SelectTree				SectionManager					tree				"Test Section"
+
+TestTreeSelection		SectionManager					tree				"Test Section"
+
+Click					SectionManager					delete
+
+SelectTree				SectionManager					tree				"Test Section"
+
+Click					SectionManager					delete
+
+SelectTree				SectionManager					tree				"sec1"
+
+TestTreeSelection		SectionManager					tree				"sec1"
+
+Click					SectionManager					cancel
+
+InvokeMethod			tos.application.Main			shutDown

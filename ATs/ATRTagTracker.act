@@ -1,0 +1,27 @@
+Package				tos.presentation
+
+InvokeMethod		tos.application.Main			startUp
+
+Select				MainWindow 						testFilterMenu
+
+Select				MainWindow 						testFilterTag
+
+Click				FilterByTags					testTagSelection
+
+Click 				FilterByTags					testTagSelectionSave
+
+InvokeMethod		tos.presentation.MainWindow		refresh
+
+Test				MainWindow						testTagLabel		"Step 2: ??????"
+
+Select				MainWindow 						testFilterMenu
+
+Select				MainWindow 						testFilterTag
+
+Click 				FilterByTags					testTagSelectionSave
+
+InvokeMethod		tos.presentation.MainWindow		refresh
+
+Test				MainWindow 						testTagLabel		"Drink a gallon of water"
+
+InvokeMethod		tos.application.Main			shutDown

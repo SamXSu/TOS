@@ -1,0 +1,78 @@
+................................Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.
+Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Unit Test using HSQL DB
+Connection closed to HSQL DB named TOS
+...........................Connection created to HSQL DB named TOS
+Integration Test Using HSQL Database
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Integration Test Using HSQL Database
+Connection closed to HSQL DB named TOS
+.Connection created to HSQL DB named TOS
+Integration Test Using HSQL Database
+Connection closed to HSQL DB named TOS
+.Begin Integration Test Accessing Default DB
+Connection created to HSQL DB named TOS
+Connection closed to HSQL DB named TOS
+End Integration Test Accessing Default DB
+.Begin Integration Test Accessing Stub DB
+End Integration Test Accessing Default DB
+
+Time: 10.755
+
+OK (81 tests)
+
